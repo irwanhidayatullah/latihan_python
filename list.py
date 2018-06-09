@@ -17,8 +17,12 @@ c3 = c1[0][:2] #mengakses list multimensi [list pertama] [index list ke dari lis
 
 #method list
 d1 = a1[:]
-d1.append(999)
-
+d3 = d1.append(999) #menambah dan di letakkan di belakang
+print ('ini adalah ', d3)
+d4 = d1.extend('abc') # menambah data ke list
+d5 = d1.insert(3,'sepeda') #menambah data ke list
+d6 = d1.count('sepeda')
+d7 = d1.remove(100)
 #fungsi list
 d2 =  len(a1)
 
@@ -36,3 +40,8 @@ print (c2)
 print (c3)
 print (d1)
 print (d2)
+print (d3)
+print (d4)
+print (d5)
+print (d6)
+print (d7)
